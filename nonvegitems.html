@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:cornsilk;
+    }
+    h2{
+        text-align: center;
+        color:blueviolet;
+        font-size: 80px;
+        text-decoration-line: underline;
+        text-decoration-color:chartreuse;
+        text-decoration-style:dashed;
+
+    }
+    .order-veg{
+        color:darkred;
+        margin:40px 40px;
+        font-size: 30px;
+    }
+    #adding{
+        text-align: right;
+        color:black;
+        left:50px;
+        margin: 50px 30px 40px 50px;
+        font-size: 25px;
+        background-color:coral;
+        border:10x;
+        border-style:dashed ;
+    }
+    #adding:active{
+        color:chartreuse;
+        
+    }
+    .try-nonveg{
+        text-align: left;
+        font-size: 25px;
+        color:darkgreen;
+    }
+    .generate{
+        left:60px;
+        color:black;
+        margin: 50px 30px 40px 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        border-style: dotted;
+        background-color:aliceblue;
+       color:darkmagenta;
+       font-size: 24px;
+    }
+    img{
+        float:right;
+    }
+</style>
+<body>
+    <h2> Our Non-veg items</h2>
+   
+    <div class="veg">
+        <ul class="order-veg">
+            <li>Chicken-65 - 100<button id="adding" value='100'>ADD</button> <img src="/chicken65.PNG" alt="manchuria" style="width:250px;height:250px;margin-right: 85px;"></li>
+            <li>Chilli Prawns - 150<button id="adding"  value="150">ADD</button></li>
+            <li>Chicken Biryani - 250 <button id="adding" value="250">ADD</button> <img src="/biryani.png" alt="biryani" style="width:240px;height:200px;margin-right:250px;"></li>
+            <li>Mutton Biryani- 300 <button id="adding" value="300">ADD</button></li>
+            <li>Tandoori Chicken - 250 <button id="adding" value="250">ADD</button><img src="/chickenroti.PNG" alt="rotis" style="width:200px;height:200px;margin-right:40px;"></li>
+            <li>Rotis and Naans - 50 <button id="adding" value="50">ADD</button> </li>
+        </ul>
+    </div>
+
+    <button class="generate" onclick="generate()">Generate Bill</button>
+    <script src="food-order.js"></script>
+   
+    
+</body>
+</html>

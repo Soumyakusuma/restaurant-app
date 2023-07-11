@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        
+        background-color:blanchedalmond;
+
+    }
+    #amount{
+        font-size: 15px;
+        margin:30px 30px;
+        color:blue;
+    }
+    .type{
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    .people{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .tip-calculate{
+        font-size: 20px;
+        color:chartreuse;
+        background-color: whitesmoke;
+        margin-top: 40px;
+        text-align: center;
+
+    }
+    .calculate {
+        margin-top:30px;
+  border: 5px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+</style>
+<body>
+    <h3>Tip Calculation</h3>
+    <form action="">
+    <div class="calculate">
+        <label>Amount to be paid</label>
+         <input type="text" id="amount" placeholder="0" >
+
+         <br>
+         <label>Choose how was the service</label>
+         <select id="type" name="type">
+         <option value="1.0">Excellent</option>
+         <option value="0.5">Good</option>
+         <option value="0.2">Average</option>
+         <option value="0.25">Bad</option>
+         </select>
+         <br>
+         <label>Number of people</label>
+         <input type="text" placeholder="0" id="people">
+         <br>
+         <button class="tip-calculate" onclick="calculate_the_tip()">Calculate</button>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url('https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/371/722/datas/original.jpg');
+        background-repeat: no-repeat;
+        background-size: 1400px;
+        background-attachment: fixed;
+        color:white;
+    }
+   /*h2{
+        color:white;
+        font-size: 70px;
+        font-weight: bolder;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        text-align:center;
+        margin-top: 100px;
+        
+        
+    }*/
+    .mid{
+        
+        display:block;
+        width:33%;
+       margin:30px auto;
+        
+    }
+
+    .left{
+
+        display:inline-block;
+        position: absolute;
+        left:30px;
+        top:30px;
+    }
+    .right{
+        position:absolute;
+        right:60px;
+        top:30px;
+        display:inline-block;
+       
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        display:inline-block;
+        color:white;
+    }
+    .navbar li a{
+        color:white;
+        padding:30px 10px 20px 2px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration: underline;
+        color:chartreuse
+    }
+    .left img{
+        width:90px;
+    }
+    .left div{
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:darkorange;
+        font-size: 15px;
+    }  
+    .btn{
+        padding: 10px;
+        margin:20px;
+        color:chocolate;
+        border: dashed;
+        border-color:black;
+        cursor:pointer;
+        border-radius: 10px;
+        font-family: cursive;
+    }
+    .btn:hover,.btn:active{
+        color: darkcyan;
+        text-decoration: underline;
+    }
+    p{
+        text-align: center;
+        margin:70px;
+        font-size:75px;
+        padding: 3px;
+        color:white;
+        font-family:cursive;
+     }
+    .items{
+        margin:100px;
+        margin-left: 25px;
+    }
+    .items a{
+        color:white;
+        display:block;
+        padding: 20px;
+        font-size:25px;
+       text-decoration: none;
+       color:cyan;
+    }
+    .items a:hover,.items a:active{
+        color:brown;
+        text-decoration: underline;
+        
+
+    }
+    .form-group  {
+        text-align:right;
+        margin:auto;
+        top:80px;
+        padding: 2px 2px;
+        display:block;
+        font-size: 15px;
+        
+
+    }
+    .order p{
+        text-align: right;
+        font-size: 30px;
+        color:black;
+        padding: 2px;
+        margin: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .btn1{
+        margin:15px;
+        position: absolute;
+        right:50px;
+        cursor: pointer;
+        font-family:cursive;
+        border-radius: 2px;
+        border:dashed;
+        border-color: cyan;
+
+    }
+</style>
+<body>
+    <!--<h2>Mana Telugu Ruchulu</h2>-->
+    
+    <header class="header">
+    <div class="leftttttt">
+
+      <img src="/food.png" alt="restaurent">
+      <div>Mana Telugu Ruchulu</div>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About </a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+     </div>
+    <div class="right">
+        
+        <button class="btn">Order Now</button>
+    </div>
+    <div>
+        <p>Mana Telugu Ruchulu</p>
+    </div>
+    <div class="items">
+        <a href="/vegitems.html">Try our special veg items</a>
+        <a href="#">Try our special non-veg items</a>
+       <!-- <a style="text-align:left" href="/education.html">EDUCATION</a>-->
+
+    </div>
+    
+    <div class="order">
+        <p>Book Your Table Now</p>
+       <form action="noaction.php">
+        <div class="form-group">
+        <input type="text" name="myname" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="mypnumber" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="mytime" placeholder="Time">
+        </div>
+        <button class="btn1">Submit Now</button>
+       </form>
+    </div>
+</header>
+    </body>
+</body>
+</html>
